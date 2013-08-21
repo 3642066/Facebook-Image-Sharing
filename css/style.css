@@ -1,0 +1,56 @@
+/**
+* Facebook Image Sharing 
+* CSS
+*
+* @author	MarQuis L. Knox <opensource@marquisknox.com>
+* @license	AGPL v3
+* @link		http://www.gnu.org/licenses/agpl-3.0.html
+* @link		https://github.com/MarQuisKnox
+*
+* @since 	Thursday, August 22, 2013 / 01:28 AM GMT+1 mknox
+* @edited 	$Date$ $Author$
+* @version 	$Revision: 1 $
+*
+* @package	Facebook Image Share
+*/
+
+#mainContainer {
+	width: 100%;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+img {
+	border: 0;	
+}
+
+.whiteOverlay {	
+	position: absolute;	
+	background-color: #FFFFFF;	
+	opacity: 0.6;	
+	z-index: 1;
+}
+
+.whiteOverlayContainer {
+	position: relative;	
+}
+
+.facebookShare {
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	background-image: url('../images/icons/facebook.png');
+	background-repeat: no-repeat;
+	background-position: center; 	
+	top: 50%;
+	left: 50%;
+	margin-top: -8px; /* Half the height */
+	margin-left: -8px; /* Half the width */	
+	z-index: 2;
+	cursor: pointer;
+}
+
+#imageOverlayTemplate {
+	display: none;	
+}
