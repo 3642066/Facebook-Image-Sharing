@@ -1,4 +1,4 @@
 Facebook-Image-Sharing
 ======================
 
-Share images on Facebook using jQuery.
+Share images on Facebook using jQuery
