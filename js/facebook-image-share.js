@@ -15,10 +15,6 @@
 */
 
 $(document).ready(function() {
-	
-	$('img').each(function() {
-		$(this).addClass('social-image-share');
-	});	
 		
 	$('.social-image-share').on({		
 	    mouseenter: function () {	    	
