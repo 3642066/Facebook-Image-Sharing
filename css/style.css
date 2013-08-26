@@ -38,15 +38,15 @@ img {
 
 .facebookShare {
 	position: absolute;
-	height: 16px;
-	width: 16px;
-	background-image: url('../images/icons/facebook.png');
+	height: 18px;
+	width: 57px;
+	background-image: url('../images/icons/share.gif');
 	background-repeat: no-repeat;
 	background-position: center; 	
 	top: 50%;
-	left: 50%;
-	margin-top: -8px; /* Half the height */
-	margin-left: -8px; /* Half the width */	
+	left: 20%;
+	margin-top: -9px; /* Half the height */
+	margin-left: -10px; /* Half the width */	
 	z-index: 2;
 	cursor: pointer;
 }
